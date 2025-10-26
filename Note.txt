@@ -17,6 +17,7 @@
 
   predefined attributes:
   id
+  style
   name
   title
   class
@@ -27,8 +28,37 @@
   syntax :- <tagname attrname="value" ></tagname>
 
 #8
+  <tagname> content </tagname> ==> Html Element
 
+  <h1  style="color:white;background-color: tomato;" >Today's News - ABC News Paper</h1>
 
+  <script>
+      document.querySelector("#news_2").style.backgroundColor="green";
+      document.querySelector("#news_2").style.color="white";
+  </script>
+
+  4 ways of adding color
+  1. direct color name Ex. red
+  2. rgb(10,110,90) or rgba()
+  3. #2ab3c1
+  4. hsl() or hsla()
+
+  Hue
+  Hue is a degree on the color wheel from 0 to 360. 0 (or 360) is red, 120 is green, 240 is blue.
+
+  Saturation
+  Saturation can be described as the intensity of a color. It is a percentage value from 0% to 100%.
+
+  100% is full color, no shades of gray.
+
+  50% is 50% gray, but you can still see the color.
+
+  0% is completely gray; you can no longer see the color.
+
+  Lightness
+  The lightness of a color can be described as how much light you want to give the color, where 0% means no light (dark), 50% means 50% light (neither dark nor light), and 100% means full light.
+
+  The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all).
 
 #9
 

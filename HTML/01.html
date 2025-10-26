@@ -2,14 +2,12 @@
   <head>
     <title>News Content</title>
     <style>
-      #heading{
-        color: tomato;
-      }
+      
     </style>
   </head>
   <body>
-    <h1 id="heading" >Today's News - ABC News</h1>
-    <h3>News Item 1:</h3>
+    <h1  style="color:white;background-color: tomato;" >Today's News - ABC News Paper</h1>
+    <h3 style="color: hsl(0, 83%, 37%);" >News Item 1:</h3>
     <p>
       <b>Lorem</b> ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
       praesentium, quas quia maxime sint assumenda non. Et dolor est
@@ -17,13 +15,9 @@
       nam recusandae, velit blanditiis!
     </p>
     <h3>News Item 2:</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-      praesentium, quas quia maxime sint assumenda non. Et dolor est
-      perspiciatis veritatis voluptatum molestiae numquam corporis consectetur
-      nam recusandae, velit blanditiis! Lorem ipsum, dolor sit amet consectetur
-      adipisicing elit. Quo error delectus necessitatibus voluptatem at sit, non
-      accusantium iusto eius pariatur.
+    <p id="news_2" >
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id velit explicabo, dolor unde tempora labore, quae ipsa est perspiciatis eligendi deleniti libero, non ducimus saepe necessitatibus placeat consequatur adipisci veniam?
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit earum sapiente incidunt odio suscipit mollitia consectetur quia, deserunt, delectus, id reprehenderit tempore quasi dolor omnis maxime! Excepturi voluptatibus dignissimos tenetur.
     </p>
     <h3>News Item 3:</h3>
     <p>
@@ -40,5 +34,9 @@
       perspiciatis veritatis voluptatum molestiae numquam corporis consectetur
       nam recusandae, velit blanditiis!
     </p>
+    <script>
+      document.querySelector("#news_2").style.backgroundColor="green";
+      document.querySelector("#news_2").style.color="white";
+    </script>
   </body>
 </html>
